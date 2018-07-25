@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Memory Game Sample
+Memory Game Sample (Live Version: https://mrmuzik.github.io/memory-game/)
 
 Objective:
 Create a simple memory game using the tools of your choice. You can use whatever frameworks or open source packages you’d like.
