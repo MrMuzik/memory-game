@@ -1,0 +1,35 @@
+// Reset
+@import '../css/reset.css';
+// Icons
+@import './fontawesome/fontawesome';
+// Styles
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.is-mobile {
+    .game-wrapper {
+        display: flex;
+        flex-direction: column;
+        .game-board {
+            order: 2;
+        }
+        .game-rules {
+            order: 1;
+        }
+    }
+}
+
+.is-desktop {
+    .game-board {
+        order: 1;
+    }
+    .game-rules {
+        order: 2;
+    }
+}
+
+.display-none {
+    display: none;
+}
